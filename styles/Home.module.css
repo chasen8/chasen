@@ -1,0 +1,80 @@
+/* Color palette:
+   #BF9FA6, #393C60, #4E394F, #AC8467
+*/
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #393C60;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.select,
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.select {
+  flex: 1;
+  background-color: #BF9FA6;
+  color: #fff;
+}
+
+.intervalButton {
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.intervalButton.active {
+  background-color: #4E394F;
+  color: #fff;
+}
+
+.intervalButton.inactive {
+  background-color: #AC8467;
+  color: #fff;
+}
+
+.analyzeButton {
+  background-color: #393C60;
+  color: #fff;
+  cursor: pointer;
+}
+
+.analyzeButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.resultBox {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.advice {
+  color: #4E394F;
+  font-weight: bold;
+}
+
+.dailyListItem {
+  margin-bottom: 8px;
+}
